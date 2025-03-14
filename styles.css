@@ -95,7 +95,7 @@ a{
     color: #2c3e50;
 }
 
-@media (min-width:390px) {
+@media (min-width:360px) {
     body {
         font-size: min(max(0.56rem, 1.2vw), 3rem);
         width: 100%;
