@@ -94,6 +94,12 @@ nav{
 a{
     color: #2c3e50;
 }
+.refer{
+    font-size: 0.9em;
+    color: rgb(88, 89, 91);
+    padding: 1em;
+    align-self: flex-start;
+}
 
 @media (min-width:360px) {
     body {
