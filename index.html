@@ -17,7 +17,6 @@
 </head>
 
 <body>
-    <!-- <button id="back-to-top"><i class="fas fa-chevron-up"></i></button> -->
     <!-- Header Section -->
     <header>
         <h1>Computer Vision</h1>
@@ -36,9 +35,10 @@
             <button type="button" class="menu-check" onclick="toggleMenu()">Navigation</button>
         </div>
         <ul class="nav-ul" id="navMenu">
-            <li><a href="#why" onclick="closeMenu()">Why create?</a></li>
-            <li><a href="#arduino" onclick="closeMenu()">Arduino</a></li>
-            <li><a href="#features" onclick="closeMenu()">Features</a></li>
+            <li><a href="#intro" onclick="closeMenu()">Introduction</a></li>
+            <li><a href="#creation" onclick="closeMenu()">Creation</a></li>
+            <li><a href="#yolo" onclick="closeMenu()">YOLO</a></li>
+            <li><a href="#bioinfo" onclick="closeMenu()">Bioinformatics</a></li>
         </ul>
     </nav>
 
@@ -46,7 +46,7 @@
 
     <section class="main-section">
         <!-- Introduction Section -->
-        <section class="sub-sections" id="introduction">
+        <section class="sub-sections" id="intro">
             <h2>Introduction</h2>
 
             <p class="paras">
@@ -65,8 +65,14 @@
             </p>
             <img src="resources/image_recog.jpg" alt="cat_nn">
         </section>
-        <!-- Why Build it? -->
-        <section class="sub-sections" id="why">
+
+        <section class="sub-sections" id="creation">
+            <h2>Creation of Decryption Page</h2>
+            <img src="resources/flowchart.png" alt="flowchart" id="flowchart">
+        </section>
+
+   
+        <section class="sub-sections" id="yolo">
             <h2>YOLO</h2>
             <p class="paras">
                 You Only Live Once but this section talks about something else.
@@ -84,21 +90,33 @@
             </p>
             <img src="resources/yolo.png" alt="yolo">
         </section>
-        <!-- Arduino Overview -->
-        <section class="sub-sections" id="arduino">
+
+        <section class="sub-sections" id="bioinfo">
             <h2>Computer Vision in Bioinformatics</h2>
             <p class="paras">
                 Computer vision (CV) is revolutionizing bioinformatics by providing powerful ways to extract insights
                 from biological images and data — faster and more accurately than ever before. From analyzing protein
                 structures and tracking how they fold, to counting cells in microscopic images and identifying diseased
-                tissues, CV automates tasks that were once slow and labor-intensive. It’s also helping researchers
+                tissues, CV automates tasks that were once slow and labor-intensive.
+            <p class="paras">
+                It’s also helping researchers
                 detect diseases like cancer by recognizing abnormal cell patterns, or even identifying microalgae
                 species — imagine using CV to distinguish Spirulina from other species based on microscopic features!
                 These breakthroughs enable faster drug discovery, precision medicine, and better environmental studies.
                 By combining AI-driven CV with bioinformatics, we’re opening doors to discoveries that would take humans
                 years to uncover manually.
             </p>
+
+            </p>
             <img src="resources/microalgae.png" alt="algae">
+        </section>
+        <section class="sub-sections" id="ref">
+            <h2>References</h2>
+            <ul>
+                <li><a href="https://docs.ultralytics.com/">https://docs.ultralytics.com/</a></li>
+                <li><a href="https://doi.org/10.3390/w14142219">https://doi.org/10.3390/w14142219</a></li>
+                <li><a href="https://doi.org/10.3389/fmars.2023.1105545">https://doi.org/10.3389/fmars.2023.1105545</a></li>
+            </ul>
         </section>
     </section>
     <script src="script.js"></script>

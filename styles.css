@@ -91,6 +91,9 @@ nav{
 .paras{
     padding: 1em 0;
 }
+a{
+    color: #2c3e50;
+}
 
 @media (min-width:390px) {
     body {
@@ -161,7 +164,7 @@ nav{
 
 @media (min-width:1024px) {
     body {
-        font-size: min(max(0.5rem, 1vw), 2rem);
+        font-size: min(max(0.5rem, 0.8vw), 2rem);
         width: 100%;
     }
     .sub-sections{
